@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" parallel="false" >
+	<test name="TestNgTest1">
+	    <classes>
+	      <class name="com.pk.ATAChallenge2019.TestngTest1"/>
+	    </classes>
+	 </test> <!-- Test -->
+	 <test name="TestNgTest6">
+	   <classes>
+	     <class name="com.pk.ATAChallenge2019.TestngTest6"/>
+	   </classes>
+	 </test> <!-- Test -->
+	 <test name="JunitTestSuite" junit="true">
+	    <classes>
+	      <class name="com.pk.ATAChallenge2019.JUnitTestSuite"/>
+	    </classes>
+	</test> <!-- JunitTestsuite with 3 Tests -->
+</suite> <!-- Suite -->
